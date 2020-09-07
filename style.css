@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    background-color: #fff;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+nav img{
+    width: 20vw;
+    margin-left: 5%;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.list__item{
+    list-style: none;
+    margin: 0 2%;
+}
+.list__item a{
+    text-decoration: none;
+    color: gray;
+}
+.list__item a:hover {
+    color: #f870c3;
+}
+.slide1{
+    width: 100vw;
+    height: 60vh;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin: 10vh 0;
+}
+.container__item{
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__item p{
+    font-size: 1vw;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+.container__img{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.container__img:hover{
+    opacity: 1;
+}
+.container__btn{
+    border: none;
+    height: 10%;
+    width: 30%;
+    background-color: #f670bb;
+    color: #fff;
+    cursor: pointer;
+}
+.container__btn:hover{
+    background-color: #f13ea5;
+}
+.background{
+    width: 100vw;
+    height: 40vh;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0;
+    cursor: pointer;
+}
+.box__item{
+    display: flex;
+    flex-flow: column;
+}
+.box__item img{
+    width: 20vw;
+}
+.box__link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #80807e;
+    cursor: pointer;
+}
+footer{
+    width: 100vw;
+    background-color: #2c2c2c;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    width: 100%;
+}
+footer a:hover{
+    color: #f13ea5;
+}
+.footer__item{
+    display: flex;
+    flex-flow: column;
+    width: 20%;
+    align-items: center;
+}
+.footer__item input{
+    width: 100%;
+    border: none;
+    margin: 5% 0;
+    height: 20%;
+}
+.footer__item input[type='submit']{
+    background-color: #f670bb;
+    cursor: pointer;
+}
+.footer__item input[type='submit']:hover{
+    color: #fff;
+    background-color: #f13ea5;
+}
+.footer__item p:nth-child(2){
+    margin-bottom: 10%;
+}
+.footer__down{
+    padding: 1.5%;
+    text-align: center;
+}
+.footer__down a{
+    text-decoration: none;
+    color: #000;
+}
+.footer__down a:hover{
+    color: #f13ea5;
+}
